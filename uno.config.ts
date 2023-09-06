@@ -1,15 +1,17 @@
 import {
 	defineConfig,
 	presetIcons,
+	presetUno,
 	presetAttributify,
 	presetWebFonts,
 	transformerDirectives,
 	transformerVariantGroup
 } from 'unocss';
 import extractorSvelte from '@unocss/extractor-svelte';
+import { presetForms } from '@julr/unocss-preset-forms';
 
 export default defineConfig({
-	presets: [presetAttributify(), presetIcons(), presetWebFonts()],
+	presets: [presetUno(), presetAttributify(), presetIcons(), presetWebFonts(), presetForms()],
 	transformers: [transformerDirectives(), transformerVariantGroup()],
 	extractors: [extractorSvelte()],
 	theme: {

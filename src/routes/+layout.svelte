@@ -1,55 +1,17 @@
 <script>
-	import 'virtual:uno.css'
 	import '@unocss/reset/tailwind.css'
+	import 'virtual:uno.css'
 	import Header from './Header.svelte';
-	import './styles.css';
 </script>
 
-<div class="app">
+<div class="min-h-screen bg-black/90 grid grid-rows-[10%_1fr_4rem]">
 	<Header />
 
-	<main>
+	<main class="">
 		<slot />
 	</main>
 
-	<footer>
+	<footer class="text-white/80 text-center">
 		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
 	</footer>
 </div>
-
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-</style>
