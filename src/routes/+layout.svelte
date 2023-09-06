@@ -4,7 +4,7 @@
 	import Header from './Header.svelte';
 </script>
 
-<div class="min-h-screen bg-black/90 grid grid-rows-[10%_1fr_4rem]">
+<div class="min-h-screen bg-white/50 grid grid-rows-[10%_1fr_4rem]">
 	<Header />
 
 	<main class="">

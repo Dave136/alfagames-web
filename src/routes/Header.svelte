@@ -1,6 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 	import logo from '$lib/images/logo.png';
+	import logoPink from '$lib/images/logo-pink.png'
 	// import appLogo from '$lib/images/alfagame-logo.png'
 	import github from '$lib/images/github.svg';
 </script>
@@ -8,7 +9,7 @@
 <header>
 	<div class="corner">
 		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
+			<img src={logoPink} alt="SvelteKit" />
 		</a>
 	</div>
 
@@ -60,7 +61,8 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
+		/* --background: rgba(255, 255, 255, 0.7); */
+		--background: rgba(0, 0, 0, 0.5);
 	}
 
 	ul {

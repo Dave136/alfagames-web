@@ -8,7 +8,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section class="flex flex-col items-center justify-center mt-60 text-white/80">
+<section class="flex flex-col items-center justify-center mt-60 text-black/80">
 	<h1>
 		<span class="w-80 block">
 			<picture>
