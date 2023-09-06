@@ -1,4 +1,6 @@
 <script>
+	import 'virtual:uno.css'
+	import '@unocss/reset/tailwind.css'
 	import Header from './Header.svelte';
 	import './styles.css';
 </script>
